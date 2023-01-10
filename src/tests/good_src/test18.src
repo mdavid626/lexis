@@ -1,0 +1,47 @@
+/' Program 18: Hard functions '/
+
+function power(a as double, n as integer) as double
+dim actual as integer
+dim result as double
+result = 1
+actual = 0
+
+do while (((((actual < n)))))
+	result = result * a
+	actual = actual + 1
+loop
+
+return result
+end function
+
+function max( a as double, b as double) as double
+	if (a > b) then
+		return a
+	else
+		return b
+	end if
+end function
+
+
+
+scope
+dim a as integer
+dim b as double
+dim c as double
+dim d as double
+dim e as double
+dim result as double
+
+a = 2
+b = 1
+
+c = power(2.0, 10)
+d = max(6.0, 3.0)
+e = max(2.0, 1.0)
+
+result = (max(c, d) * 2 * power(e, 2))
+
+print result; "\n";
+
+
+end scope

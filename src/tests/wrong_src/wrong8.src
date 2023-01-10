@@ -1,0 +1,8 @@
+/' Wrong 8:  Nedefinovane funkce'/
+
+Declare Function function1 (n As Integer) As Integer
+scope 'Hlavni telo programu
+  Dim a as Integer;
+  a = 3
+  a = function1(3)
+end scope

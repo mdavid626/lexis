@@ -1,0 +1,6 @@
+/' Wrong 50: Return in scope '/
+
+scope
+
+return 0
+end scope

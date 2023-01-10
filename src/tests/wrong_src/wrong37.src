@@ -1,0 +1,8 @@
+/' Wrong 37: Chybne vyrazy 4'/
+
+scope 'Hlavni telo programu
+  dim a as integer
+  
+  a = (2 + 2)) * 3
+  
+end scope

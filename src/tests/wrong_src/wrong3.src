@@ -1,0 +1,17 @@
+/' Wrong 3:  Return -> Reurn'/
+
+Declare Function pow (n As Integer) As Integer
+Function pow (n As Integer) As Integer
+  Dim test1 As Integer
+  Dim test2 As Integer
+  Dim result As Integer
+  result = n
+  Reurn result
+End Function
+
+scope 'Hlavni telo programu
+  Dim result As Integer
+  Dim n as Integer
+  n = 2
+  result = pow(n)
+end scope

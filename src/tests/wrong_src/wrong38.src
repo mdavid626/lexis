@@ -1,0 +1,8 @@
+/' Wrong 38: Chybne vyrazy 5'/
+
+scope 'Hlavni telo programu
+  dim a as string
+  
+  a = "abcd" / "ab"
+  
+end scope

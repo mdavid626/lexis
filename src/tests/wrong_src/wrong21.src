@@ -1,0 +1,6 @@
+/' Wrong 21: Chybna celociselna konstanta'/
+
+scope 'Hlavni telo programu
+  Dim n as Integer
+  n = 21a23bc21
+end scope

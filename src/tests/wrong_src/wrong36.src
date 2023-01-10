@@ -1,0 +1,6 @@
+/' Wrong 36: Chybne vyrazy 3'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  a = 2 ++ 2
+end scope

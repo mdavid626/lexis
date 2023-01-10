@@ -1,0 +1,10 @@
+/' Program 13: full function '/
+
+function sm (s as string, i as integer, d as double) as integer
+	print s; i; d; "\n";
+	return (0 - 1)
+end function
+
+scope 
+print sm("Ahoj", 0, 2.0); "\n";
+end scope

@@ -1,0 +1,9 @@
+/' Wrong 49: Ve funkcii este raz definovana parameter '/
+
+function asd ( a as integer) as integer
+	dim a as double
+	return 0
+end function
+
+scope
+end scope

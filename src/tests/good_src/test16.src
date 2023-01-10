@@ -1,0 +1,12 @@
+/' Program 16: funkcia parameters '/
+
+function asd (smt as integer) as integer
+	return smt
+end function
+function smt ( ) as integer
+	return 0
+end function
+
+
+scope
+end scope

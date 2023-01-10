@@ -1,0 +1,6 @@
+/' Wrong 34: Chybne vyrazy 1'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  a = 1 + 2.2 + "asdfasd"
+end scope

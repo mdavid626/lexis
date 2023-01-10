@@ -1,0 +1,14 @@
+/' Wrong 12: Nekompatibilita typu pri volani funkce 3'/
+
+Declare Function function1 (n As Integer) As Integer
+Function function1 (n As Integer) As Integer
+  Dim result as Integer
+  result = n
+  Return result
+End Function
+
+scope 'Hlavni telo programu
+  Dim a as double
+  Dim result as integer
+  result = function1(a)
+end scope

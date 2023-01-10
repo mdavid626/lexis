@@ -1,0 +1,6 @@
+/' Wrong 30: Chybny prikaz prirazeni'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  a := 2
+end scope

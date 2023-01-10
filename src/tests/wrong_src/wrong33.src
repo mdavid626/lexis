@@ -1,0 +1,12 @@
+/' Wrong 33: Chybny DO WHILE'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  
+  a = 10
+  
+  do while a > 0
+    print a;
+  loo
+  
+end scope

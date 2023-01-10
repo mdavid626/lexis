@@ -1,0 +1,11 @@
+/' Wrong 17: Deleni nulou'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as Integer
+  Dim result as Double
+  
+  a = 15
+  b = 0
+  result = a / b
+end scope

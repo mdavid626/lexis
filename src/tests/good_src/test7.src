@@ -1,0 +1,23 @@
+/' Program 7:  If bez else'/
+
+Scope 'Hlavni telo programu
+  dim a as integer
+  dim b as integer
+  
+  a = 0
+  
+  if a > 0 then
+    b = 12
+  end if
+
+  if a < 0 then
+    b = 21
+  end if
+	 
+  if a = 0 then
+    b = 0
+  end if
+	 
+  print "b = " ; b;
+  
+End Scope

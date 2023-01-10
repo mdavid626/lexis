@@ -1,0 +1,16 @@
+/' Program 19: Input '/
+
+scope
+dim i as integer
+dim d as double
+dim s as string
+
+input; i
+input; d
+input; s
+print i; d; s; "\n";
+input; i, d, s
+print i; d; s; "\n";
+input; i, d, s
+print i; d; s; "\n";
+end scope

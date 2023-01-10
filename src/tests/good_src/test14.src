@@ -1,0 +1,13 @@
+/' Program 14: full function '/
+
+function something (n as integer ) as integer
+dim a as integer
+
+a = n
+
+print a;
+
+end function
+
+scope
+end scope

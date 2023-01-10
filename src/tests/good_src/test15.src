@@ -1,0 +1,20 @@
+/' Program 15: strings '/
+
+function neco ( s as string) as string
+	print s; "\n";
+	s = "Ahoj, nazdarek"
+	print s; "\n";
+	s = "Ahoooj"
+	return s
+end function
+
+scope
+dim s as string
+dim res as string
+s = "Scope"
+
+print s; "\n";
+res = neco(s)
+print s; "\n";
+print res; "\n";
+end scope

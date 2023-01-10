@@ -1,0 +1,6 @@
+/' Wrong 23: Chybna Retezcova konstanta'/
+
+scope 'Hlavni telo programu
+  Dim s as string
+  s = "hello world""
+end scope

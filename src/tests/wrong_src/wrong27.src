@@ -1,0 +1,7 @@
+/' Wrong 27: Chybny napsany Input 2'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as Integer
+  Input ; a ; b ;
+end scope

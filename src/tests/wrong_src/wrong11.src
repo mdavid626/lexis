@@ -1,0 +1,13 @@
+/' Wrong 11: Nekompatibilita typu pri volani funkce 2'/
+
+Declare Function function1 () As Integer
+Function function1 () As Integer
+  result = 2
+  Return result
+End Function
+
+scope 'Hlavni telo programu
+  Dim a as Double
+  a = 0
+  a = function1(a)
+end scope

@@ -1,0 +1,10 @@
+/' Program 21: Long strings '/
+
+Scope
+Dim a as string
+dim b as string
+
+print "zadejte 2 retezce: ";
+input; a, b
+print a;" + "; b; " je "; a+b ; "\n";
+end scope

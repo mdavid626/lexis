@@ -1,0 +1,7 @@
+/' Program 4: Jednoduchy print'/
+
+Scope 'Hlavni telo programu
+  Dim a as Integer
+  a = 24
+  print a;
+End Scope

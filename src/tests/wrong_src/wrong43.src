@@ -1,0 +1,9 @@
+/' Wrong 43: Deklaracia funkcii je po definicii'/
+
+function bla ( ) as integer
+end function
+
+declare function bla ( ) as integer
+
+scope
+end scope

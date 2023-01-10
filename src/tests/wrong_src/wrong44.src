@@ -1,0 +1,8 @@
+/' Wrong 44: Funkcia 2x deklarovana '/
+
+declare function bla ( ) as integer
+
+declare function bla ( ) as integer
+
+scope
+end scope

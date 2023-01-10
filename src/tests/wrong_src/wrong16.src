@@ -1,0 +1,15 @@
+/' Wrong 16: Jmeno funkcie zacina na cislo'/
+
+Declare Function 2function (n as integer) As Integer
+Function 2function (n As Integer) As Integer
+  Dim result As Integer
+  result = 2
+  Return result
+End Function
+
+scope 'Hlavni telo programu
+  Dim n as Integer
+  Dim result as Integer
+  n = 2
+  result = 2function(n)
+end scope

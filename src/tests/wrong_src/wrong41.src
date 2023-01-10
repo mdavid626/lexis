@@ -1,0 +1,17 @@
+/' Wrong 41: Vestavene funkce 1 - deklarovana uzivatelem'/
+
+declare function find (string s1, string2) as integer
+function find (string s1, string s2) as integer
+  dim a as integer
+  a = 2
+  return 2 
+end function
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  dim s1 as string
+  dim s2 as string
+  s1 = "asdf"
+  s2 = "adsfsadf"
+  a = find(s1, s2)
+end scope

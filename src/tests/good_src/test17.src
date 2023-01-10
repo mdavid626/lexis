@@ -1,0 +1,26 @@
+/' Program 17: Hard conditions '/
+
+scope
+dim a as integer
+dim b as integer
+
+
+
+a = 0
+b = 0
+do while a < 10 
+	b = 0
+	do while b < 10
+		if a = b then
+			if a = 5 then
+				print "5-5\n";
+			else
+			end if 
+		else
+		end if
+		b = b + 1
+	loop
+	a = a + 1
+loop
+
+end scope

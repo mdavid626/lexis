@@ -1,0 +1,12 @@
+/' Wrong 42: Vestavene funkce 2'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  dim s1 as string
+  dim s2 as string
+  dim s3 as string
+  s1 = "asdf"
+  s2 = "adsfsadf"
+  s3 = "adsfadsf"
+  a = find(s1, s2, s3)
+end scope

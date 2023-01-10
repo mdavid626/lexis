@@ -1,0 +1,8 @@
+/' Wrong 40: Chybne vyrazy 7'/
+
+scope 'Hlavni telo programu
+  dim a as string
+  
+  a = 2 <> 3.3
+  
+end scope

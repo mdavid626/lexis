@@ -1,0 +1,13 @@
+/' Program 11: Jednoducha funkce '/
+
+function something (a as integer, b as integer) as integer
+  print "hello functions!!\n";
+  return 0
+end function
+
+scope
+dim a as integer
+dim b as integer
+
+a = something(a,b)
+end scope

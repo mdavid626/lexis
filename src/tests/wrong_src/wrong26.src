@@ -1,0 +1,6 @@
+/' Wrong 26: Chybny napsany Input'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Input a
+end scope

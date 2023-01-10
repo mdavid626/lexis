@@ -1,0 +1,5 @@
+/' Wrong 15: Identifikator zacina na cislo'/
+
+scope 'Hlavni telo programu
+  Dim 2test as Integer
+end scope

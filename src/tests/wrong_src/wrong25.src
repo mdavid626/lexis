@@ -1,0 +1,9 @@
+/' Wrong 25: Blokove komentare'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  /'a = 34adsf;lkdsajfsad fasdf;dslkjf a;ldskfj;lkdsajf
+  adsf asdf;las df;lkdsajfdsa ;lfjas;ldfk ja;ldskjfas;dfljsa
+  asdf; af;lsad jfads
+  fldsajf; asdf'/ Dim b as Integer /' asdfsdfadsfsadfsad f /
+end scope

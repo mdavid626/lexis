@@ -1,0 +1,11 @@
+/' Wrong 2:  Else -> Ele'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  a = 0
+  If a < 0 Then
+    Print "a < 0"
+  Ele
+    Print "a > 0";
+  End If
+end scope

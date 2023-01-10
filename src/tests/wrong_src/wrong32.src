@@ -1,0 +1,12 @@
+/' Wrong 32: Chybny IF 2'/
+
+scope 'Hlavni telo programu
+  dim a as integer
+  
+  a = 1
+  
+  if a > 0 then
+    print a;
+  else
+  
+end scope

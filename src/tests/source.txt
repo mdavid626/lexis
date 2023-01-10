@@ -1,0 +1,9 @@
+scope
+
+dim a as integer
+dim s1 as string
+dim s2 as string
+
+a = find(s1, s2)
+
+end scope

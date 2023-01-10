@@ -1,0 +1,8 @@
+/' Wrong 9: Nekompatibilita typu'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as Double
+  
+  a = b
+end scope

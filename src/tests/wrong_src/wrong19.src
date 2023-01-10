@@ -1,0 +1,11 @@
+/' Wrong 18: Chybne konstanty'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as double
+  Dim c as string
+  
+  a = re4
+  b = 4....4
+  c = "test1"test2"test2"
+end scope

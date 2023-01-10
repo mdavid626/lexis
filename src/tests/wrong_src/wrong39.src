@@ -1,0 +1,8 @@
+/' Wrong 39: Chybne vyrazy 6'/
+
+scope 'Hlavni telo programu
+  dim a as string
+  
+  a = "abcd" > 4
+  
+end scope

@@ -1,0 +1,11 @@
+/' Wrong 18: Nevhodne typy'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as double
+  Dim c as string
+  
+  a = 4.4
+  b = "4.4"
+  c = 4.4 
+end scope

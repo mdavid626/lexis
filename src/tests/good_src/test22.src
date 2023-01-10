@@ -1,0 +1,125 @@
+/' Program 22: Advanced if '/
+
+scope
+dim i1 as integer
+dim i2 as integer
+dim f1 as double
+dim f2 as double
+dim s1 as string
+dim s2 as string
+
+i1 = 5
+i2 = 6
+/' porovnani integeru '/
+if i1 < i2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if i1 <= i2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if i1 > i2 then
+	print 0;
+else
+	print 1;	' 1 
+end if
+i2 = 5
+if i1 >= i2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if i1 = i2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if i1 <> i2 then
+	print 0;
+else
+	print 1;	' 1	 
+end if
+print "\n";
+
+/' porovnani doublu '/
+f1 = 4.5
+f2 = 4.9
+if f1 < f2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if f1 <= f2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if f1 > f2 then
+	print 0;
+else
+	print 1;	' 1 
+end if
+f2 = 4.5
+if f1 >= f2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if f1 = f2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if f1 <> f2 then
+	print 0;
+else
+	print 1;	' 1	 
+end if
+
+
+print "\n";
+/' porovnani stringu '/
+s1 = "aa"
+s2 = "ab"
+
+if s1 < s2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if s1 <= s2 then
+	print 1;	' 1
+else
+	print 0;
+end if
+if s1 > s2 then
+	print 0;
+else
+	print 1;	' 1 
+end if
+s2 = "aa"
+if s1 >= s2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if s1 = s2 then
+	print 1;	' 1 
+else
+	print 0;	 
+end if
+if s1 <> s2 then
+	print 0;
+else
+	print 1;	' 1	 
+end if
+print "\n";
+
+i1 = s1 = s2
+print i1;
+print s1 <> s2;
+print "\n";
+end scope

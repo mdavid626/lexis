@@ -1,0 +1,9 @@
+/' Wrong 52: Compare mismatch '/
+
+scope
+
+if ( 1 < 2.0 ) then
+else
+end if
+
+end scope

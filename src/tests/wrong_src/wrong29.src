@@ -1,0 +1,7 @@
+/' Wrong 29: Chybne napsany Print 2'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as Integer
+  Print a, b;
+end scope

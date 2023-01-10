@@ -1,0 +1,10 @@
+/' Wrong 45: Funkcia 2x definovana '/
+
+function bla ( ) as integer
+end function
+
+function bla ( ) as integer
+end function
+
+scope
+end scope

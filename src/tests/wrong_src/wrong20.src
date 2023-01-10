@@ -1,0 +1,5 @@
+/' Wrong 20: Identifikator zacina na @'/
+
+scope 'Hlavni telo programu
+  Dim @a as Integer 
+end scope

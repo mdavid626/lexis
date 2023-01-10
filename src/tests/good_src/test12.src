@@ -1,0 +1,28 @@
+/' Program 12: fibonacci cisla '/
+
+function fibonacci(n as integer) as integer
+  dim a as integer
+  dim b as integer
+  if ( n <= 1 ) then 
+    if ( n = 1 ) then
+      return 1
+    else
+      return 0
+    end if
+  else
+    a = n - 1
+	 b = n - 2
+    return ((fibonacci(a) + fibonacci(b)))
+  end if
+end function
+
+scope
+dim n as integer
+n = 0
+
+do while n < 20
+	print fibonacci(n);
+	n = n + 1
+loop
+print "\n";
+end scope

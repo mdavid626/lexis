@@ -1,0 +1,5 @@
+/' Wrong 14: Identifikator je klicove slovo'/
+
+scope 'Hlavni telo programu
+  Dim WHILE as Integer
+end scope

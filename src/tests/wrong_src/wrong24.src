@@ -1,0 +1,5 @@
+/' Wrong 24: Neexistujuci datovy typ'/
+
+scope 'Hlavni telo programu
+  Dim a as Float
+end scope

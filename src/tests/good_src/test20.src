@@ -1,0 +1,11 @@
+/' Program 20: Konverze '/
+
+Scope 'Hlavni telo programu
+	Dim a AS integer
+	Dim b AS double
+	Dim c as double
+	
+	Input ; a, b
+	c = (a * b + b * b) * (b + a)
+	Print c; "\n";
+End Scope

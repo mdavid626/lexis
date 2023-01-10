@@ -1,0 +1,11 @@
+/' Program 5: Jednoduchy print 2'/
+
+Scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim b as Double
+  dim s as string
+  a = 24
+  b = 2.3
+  s = "hello \nWorld\\abc"
+  print a ; b ; s ;
+End Scope

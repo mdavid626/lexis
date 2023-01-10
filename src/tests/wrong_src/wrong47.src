@@ -1,0 +1,12 @@
+/' Wrong 47: Funkcia vs promenne '/
+
+function smt ( ) as integer
+return 2
+end function
+
+scope 
+dim smt as integer
+
+smt = 0
+
+end scope

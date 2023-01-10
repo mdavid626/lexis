@@ -1,0 +1,6 @@
+/' Wrong 7:  Nedeklarovane funkce'/
+
+scope 'Hlavni telo programu
+  dim a as integer
+  a = function1()
+end scope

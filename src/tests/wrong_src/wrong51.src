@@ -1,0 +1,8 @@
+/' Wrong 51: Same params '/
+
+function same (a as integer, a as double) as integer
+	return 0
+end function
+
+scope
+end scope

@@ -1,0 +1,7 @@
+/' Wrong 46: Funkcia a parameter maje stejne jmeno '/
+
+function smt (smt as integer) as integer
+	return smt
+end function
+scope
+end scope

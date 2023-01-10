@@ -1,0 +1,9 @@
+/' Wrong 48: Funkcia deklaracia - definicia ine parametre '/
+
+declare function bla ( a as integer ) as integer
+
+function bla ( a as double ) as integer
+end function
+
+scope
+end scope

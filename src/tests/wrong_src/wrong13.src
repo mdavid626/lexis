@@ -1,0 +1,15 @@
+/' Wrong 13: Nevhodny pocet parametru pri volani funkce'/
+
+Declare Function function1 (n As Integer, s as String) As Integer
+Function function1 (n As Integer, s as String) As Integer
+  Dim result as Integer
+  result = n
+  Return result
+End Function
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Dim s as String
+  Dim result as Integer
+  result = function1(a)
+end scope

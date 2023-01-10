@@ -1,0 +1,17 @@
+/' Program 9: Vypocet factorial rekurzivne'/
+
+function factorial ( n as integer ) as integer
+dim a as integer
+dim b as integer
+if (n < 2) then
+	return 1
+else
+   b = n - 1
+   a = factorial(b) * n
+	return a
+end if
+end function
+
+scope
+print factorial(5); "\n";
+end scope

@@ -1,0 +1,6 @@
+/' Wrong 1: Dim -> Dm'/
+
+scope 'Hlavni telo programu
+  Dm i as Integer
+  Print "Hello World!"
+end scope

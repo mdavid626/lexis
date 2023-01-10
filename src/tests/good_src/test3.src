@@ -1,0 +1,23 @@
+/' Program 3: Prace s retezci a vestavenymi funkcemi '/
+
+Scope 'Hlavni telo programu
+  Dim str1 As String
+  Dim str2 As String
+  Dim p As Integer
+  
+  str1 = "Toto je nejaky text"
+  str2 = str1 + ", ktery jeste trochu obohatime"
+  Print str1; "\n"; str2; "\n";
+  p = find(str2, "text")
+  Print "Pozice retezce \"text\" v retezci str2:"; p; "\n";
+  Print "Zadejte nejakou posloupnost vsech malych pismen a-h, ";
+  Print "pricemz se pismena nesmeji v posloupnosti opakovat";
+  Input ; str1
+  str2 = sort(str1)
+  Do While (str2 <> "abcdefgh")
+    Print "\nSpatne zadana posloupnost, zkuste znovu";
+    Input ; str1
+    str2 = sort(str1)
+  Loop
+  Print "\n";
+End Scope

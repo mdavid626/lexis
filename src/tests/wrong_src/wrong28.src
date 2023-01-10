@@ -1,0 +1,6 @@
+/' Wrong 28: Chybne napsany Print'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  Print a
+end scope

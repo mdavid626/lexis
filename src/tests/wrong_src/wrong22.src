@@ -1,0 +1,6 @@
+/' Wrong 22: Chybna desatinna konstanta'/
+
+scope 'Hlavni telo programu
+  Dim a as Integer
+  a = 5ee-4
+end scope

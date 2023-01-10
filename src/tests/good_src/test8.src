@@ -1,0 +1,14 @@
+/' Program 8: Jednoduchy DO WHILE'/
+
+Scope 'Hlavni telo programu
+  dim b as integer
+  
+  b = 0
+	
+  do while b < 100
+    b = b + 1
+  loop
+	 
+  print "b =" ; b;
+  
+End Scope

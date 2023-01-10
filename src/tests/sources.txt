@@ -1,0 +1,143 @@
+/' Program 9: Vypocet factorial rekurzivne'/
+
+function factorial ( n as integer ) as integer
+dim a as integer
+dim b as integer
+if (n < 2) then
+	return 1
+else
+   b = n - 1
+   a = factorial(b) * n
+	return a
+end if
+end function
+
+scope
+print factorial(5); "\n";
+end scope
+
+
+
+
+
+
+
+
+
+
+
+function fibonacci(n as integer) as integer
+  if ( n <= 1 ) then
+    if ( n = 1 ) then
+      return 1
+    else
+      return 0
+    end if
+  else
+    return ((fibonacci(n-1) + fibonacci(n-2)))
+  end if
+end function
+
+scope
+dim n as integer
+n = 0
+
+do while n < 20
+        print fibonacci(n);
+        n = n + 1
+loop
+print "\n";
+end scope
+
+
+
+
+
+
+
+
+
+
+
+
+function sm (s as string, i as integer, d as double) as integer
+        print s; i; d; "\n";
+        return (0-1)
+end function
+
+scope
+print sm("Ahoj", 0, 2.0); "\n";
+end scope
+
+
+
+
+
+
+
+
+/' Program 18: Hard functions '/
+
+function power(a as double, n as integer) as double
+dim actual as integer
+dim result as double
+result = 1
+actual = 0
+
+do while (((((actual < n)))))
+	result = result * a
+	actual = actual + 1
+loop
+
+return result
+end function
+
+function max( a as double, b as double) as double
+	if (a > b) then
+		return a
+	else
+		return b
+	end if
+end function
+
+
+
+scope
+dim a as integer
+dim b as double
+dim c as double
+dim d as double
+dim e as double
+dim result as double
+
+a = 2
+b = 1
+
+c = power(2.0, 10)
+d = max(6.0, 3.0)
+e = max(2.0, 1.0)
+
+result = (max(c, d) * 2 * power(e, 2))
+
+print result; "\n";
+
+
+end scope
+
+
+
+
+
+
+
+
+
+
+scope
+dim i1 as integer
+dim s1 as string
+dim s2 as string
+
+i1 = s1 = s2
+
+end scope

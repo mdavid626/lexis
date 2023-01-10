@@ -1,0 +1,6 @@
+/' Wrong 5:  2x ta ista promenna, ale iny typ'/
+
+scope 'Hlavni telo programu
+  Dim test1 as Integer
+  Dim test1 as String
+end scope
