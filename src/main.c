@@ -7,10 +7,10 @@
 ** resitele:
 **
 **  xnemec53 - Nemec Miroslav
-**  xlange02 - Langer Luk·π
-**  xmesza03 - MÈsz·ros Tom·π
-**  xmolna02 - Moln·r D·vid
-**  xpopto01 - Pop Tom·π
+**  xlange02 - Langer Luk√°≈°
+**  xmesza03 - M√©sz√°ros Tom√°≈°
+**  xmolna02 - Moln√°r D√°vid
+**  xpopto01 - Pop Tom√°≈°
 **
 *****************************************************
 **/
@@ -39,13 +39,13 @@ char *ERRORS[] =
     "Nastala interni chyba!",
 };
 
-// Glob·lnÌ seznam tabulek symbol˘
+// Glob√°ln√≠ seznam tabulek symbol≈Ø
 tList STableList;
-// Glob·lnÌ tabulka symbol˘
+// Glob√°ln√≠ tabulka symbol≈Ø
 //tSymbolTable STable;
-//zdrojov˝ soubor
+//zdrojov√Ω soubor
 FILE *srcFile = NULL;
-//Seznam instrukcÌ
+//Seznam instrukc√≠
 tInstructionList IList;
 // chybovy kod
 int ERROR_CODE;
@@ -62,12 +62,12 @@ int main(int argc, char *argv[])
 
     if (argc == 1)
     { // kontrola parametru
-        fprintf(stderr, "%s: nelze otev¯Ìt soubor\n", ERRORS[INTERNAL_ERROR] );
+        fprintf(stderr, "%s: nelze otev≈ô√≠t soubor\n", ERRORS[INTERNAL_ERROR] );
         return INTERNAL_ERROR;
     }
     if ((srcFile = fopen(argv[1], "r")) == NULL)
     { // kontrola otevriti souboru
-        fprintf(stderr, "%s: nelze otev¯Ìt soubor\n", ERRORS[INTERNAL_ERROR] );
+        fprintf(stderr, "%s: nelze otev≈ô√≠t soubor\n", ERRORS[INTERNAL_ERROR] );
         return INTERNAL_ERROR;
     }
 
