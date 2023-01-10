@@ -11,4 +11,4 @@ make
 ./ifj10_interpret ./tests/good_src/test1.src
 ```
 
-There are lots of sample programs in the `tests` folder.
+There are lots of sample programs in the `src/tests` folder.
