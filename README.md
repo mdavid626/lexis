@@ -1,6 +1,6 @@
 # Lexis
 
-Compiler for `IFJ10` language, which is a subset of FreeBASIC; written in C.
+Interpreter of `IFJ10` language, which is a subset of FreeBASIC; written in C.
 
 ## Usage
 The project can be compiled using `gcc` and `make`.
